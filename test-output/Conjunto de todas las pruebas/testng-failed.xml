@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Conjunto de todas las pruebas]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Pruebas con parte privada(failed)">
+    <classes>
+      <class name="Privado.Login">
+        <methods>
+          <include name="cargarPaginaInicio"/>
+          <include name="logOut"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Privado.Login -->
+    </classes>
+  </test> <!-- Pruebas con parte privada(failed) -->
+</suite> <!-- Failed suite [Conjunto de todas las pruebas] -->

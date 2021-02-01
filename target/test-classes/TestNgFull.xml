@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Conjunto de todas las pruebas" parallel="false">
+	<test name="Pruebas sin identificacion necesari">
+		<classes>
+			<class name="Inicio.AlsaViajes" />
+			<class name="Inicio.DestinosyRutas" />
+		</classes>
+	</test>
+	<test name="Pruebas con parte privada">
+		<classes>
+			<class name="Privado.Login" />
+		</classes>
+	</test> 
+</suite>
